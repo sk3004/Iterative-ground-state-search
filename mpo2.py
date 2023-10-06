@@ -9,7 +9,7 @@ def mpo2(h,J,Jz,L):
     MPOs=[]                                     # MPO data 
 
     # Pauli matrices
-    Sz=np.array([[1,0],[0,-1]],dtype=None)      #Pauli spin-z matrice
+    Sz=np.array([[1,0],[0,-1]],dtype=None)/2    #Pauli spin-z matrice
     Sp=np.array([[0,0],[1,0]],dtype=None)       #Pauli spin-raising matrice
     Sn=np.array([[0,1],[0,0]],dtype=None)       #Pauli spin-lowering matrice
     Sx=np.array([[0,1],[1,0]],dtype=None)       #Pauli spin-x matrice
