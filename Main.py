@@ -290,7 +290,7 @@ mt.xlabel("# of iteration",fontsize = 18)
 mt.savefig('gse.png')
 mt.show()
 
-Sz=tf.constant([[1,0],[0,-1]],dtype=tf.double)                  # Pauli spin-z matrice
+Sz=tf.constant([[1,0],[0,-1]],dtype=tf.double)/2                  # Pauli spin-z matrice
 
 # Calculating and plotting local expectation value (LEV) for operator 'Sz' with respect to 
 # different sites mps using below functional script:
